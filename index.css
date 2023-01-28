@@ -34,15 +34,15 @@
   margin: 0;
 }
 input {
-  padding: 8px 10px;
-  width: 250px;
+  padding: 12px 10px;
+  width: 310px;
   border-radius: 3px;
   border: 1px solid black;
   margin: auto;
 }
 button {
   margin-bottom: 10px;
-  width: 272px;
+  width: 332px;
   padding: 6px 10px;
   margin-top: 10px;
   background-color: rgb(84, 84, 246);
