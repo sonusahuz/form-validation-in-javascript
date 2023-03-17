@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form validation in javascript</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ---------------form ------------ -->
+
+    <div class="form">
+      <form action="" onsubmit="return validateForm()">
+        <h1>Login</h1>
+        <!-- user name  -->
+        <label for="">Username:</label> <br />
+        <input type="text" placeholder="Enter Username" id="username" /> <br />
+        <small id="usererror"></small> <br />
+        <!-- email  -->
+        <label for="">Email:</label> <br />
+        <input type="email" placeholder="Enter Email" id="email" /> <br />
+        <small id="emailerror"></small> <br />
+        <!-- password  -->
+        <label for="">Password:</label> <br />
+        <input type="password" placeholder="Enter Password" id="password" />
+        <br />
+        <small id="passerror"></small> <br />
+        <!-- Confirm password  -->
+        <label for="">Confirm Password:</label> <br />
+        <input
+          type="password"
+          placeholder="Enter Password again"
+          id="confirmpassword"
+        />
+        <br />
+        <small id="conferror"></small> <br />
+        <button>Submit</button> <br />
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
